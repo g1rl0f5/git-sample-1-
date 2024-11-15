@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+
+
+<header>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Here it is all</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Blog</a></li>
+              <li><a class="dropdown-item" href="#">About us</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contact us</a></li>
+            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+  <div id="carouselExampleCaptions" class="carousel slide p-4">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item carousel-image bg-img-1 active">
+        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5> Joyful Pet Living</h5>
+          <p>Pamper your pets with the best – because they deserve it!</p>
+        </div>
+      </div>
+      <div class="carousel-item carousel-image bg-img-2 ">
+        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Playtime Perfection</h5>
+          <p>
+          From toys to treats, we’ve got all the essentials for your beloved pet.</p>
+        </div>
+      </div>
+      <div class="carousel-item carousel-image bg-img-3 ">
+        <!-- <img src="..." class="d-block w-100" alt="..."> -->
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Premium Pet Care</h5>
+          <p>
+            Pamper your pets with the best – because they deserve it!</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</header>
+
+
+<div class="container mt-5 text-secondary-emphasis ">
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-10 col-lg-8">
+      <div class="card text-center mx-auto">
+        <div class="card-header">
+          Comfort & Style, Just a Click Away
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pamper Your Pets with Premium Comfort & Style!</h5>
+          <p class="card-text">
+            Explore our exclusive collection of pet accessories designed to bring out the best in your furry friends. From cozy beds and stylish collars to durable toys and grooming essentials, each product is crafted with love and attention to detail. Treat your pets to the luxury they deserve and make every moment with them unforgettable!
+          </p>
+          <a href="#" class="btn btn-primary mx-auto">More Like this 🐾</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<body>
+  <h1 class="main-head text-center py-4 mt-5">Hlo There!</h1>
+  <div class="container">
+    <div class="row g-3">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758004584-903c2a9a1abc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="dogs in box" class="card-img-top"  style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              Durable and Stylish Collars
+
+            </h5>
+            <p class="card-text">
+              Add a pop of style to your dog's daily walks! Our durable, adjustable collars , ensuring your pup looks great while staying secure.
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+          </button>
+            <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" area-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="modal-title"> Exciting News! 🛒</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close">
+
+                         </button>
+                    </div>
+                    <div class=" modal-body">
+                      <p>
+                        Hooray! You've just added a fantastic product to your cart. Get ready to treat your pup to something they’ll love!
+                      </p>
+
+
+                    </div>
+                    <!-- <div class="modal-footer">
+                      <button type="button" class="btn btn-info">close</button> </div> -->
+                   
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758175576-648226072e90?q=80&w=1793&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="dogs in box" class="card-img-top" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              Tough Toys for Endless Fun
+            </h5>
+            <p class="card-text">
+              From squeaky balls to tug ropes, we offer a variety of options to keep your pet entertained for hours while promoting healthy play and exercise.
+
+
+
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+          </button>
+             
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758124096-1fd661873b95?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="dogs balls" class="card-img-top"  style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              Treat your dog to the ultimate in care!
+            </h5>
+            <p class="card-text">
+              Made with high-quality, pet-safe materials, we guarantee both durability and comfort for all sizes and breeds. 
+
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+    </button>
+
+          </div>
+
+        </div>
+
+      </div>  
+
+
+
+
+
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758003630-df669e4e825a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            "
+            alt="dogs balls" class="card-img-top"  style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              furry friend stays comfortable !
+            </h5>
+            <p class="card-text">
+              Our products are designed to ensure your furry friend stays comfortable, happy, and fashionable—whether lounging at home or out on adventures
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+           </button>
+
+          </div>
+
+        </div>
+
+      </div>  
+
+
+
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758125946-6ec2ef64daf8?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="dogs balls" class="card-img-top"  style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              Upgrade Dog's Style- Comfort! 
+            </h5>
+            <p class="card-text">
+              Your dog deserves the bestest! Explore our premium selection of accessories, from cozy beds to stylish  and durable toys.
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+              </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card shadow bg-white rounded">
+          <img
+            src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="dogs in box" class="card-img-top"  style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">
+              Keep Them Cozy with Dog Beds
+            </h5>
+            <p class="card-text">
+              Crafted with premium fabrics that are both soft and durable, our beds offer the perfect place for your dog to unwind.
+
+            </p>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#reg-modal"> Move to cart
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+ 
+     
+
+
+
+<!-- 
+
+
+
+  <div class="card">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div> -->
+
+
+
+
+  <footer class="pt-5 pb-4 mt-5" style="background-color: #f8f9fa; color: #6c757d;">
+    <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+            
+            <!-- About Section -->
+            <div class="col-12 col-md-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #343a40;">About Us</h5>
+                <p>We provide premium pet accessories to give your pets the comfort and style they deserve. Shop the best products for your furry friends today.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-6 col-md-2 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #343a40;">Quick Links</h5>
+                <p><a href="#" class="text-secondary" style="text-decoration: none;">Home</a></p>
+                <p><a href="#" class="text-secondary" style="text-decoration: none;">Shop</a></p>
+                <p><a href="#" class="text-secondary" style="text-decoration: none;">About</a></p>
+                <p><a href="#" class="text-secondary" style="text-decoration: none;">Contact</a></p>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="col-12 col-md-4 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #343a40;">Contact</h5>
+                <p><i class="fas fa-home mr-3"></i> Wellport, Cochin, India</p>
+                <p><i class="fas fa-envelope mr-3"></i> info@chewy.com</p>
+                <p><i class="fas fa-phone mr-3"></i> +91 984567898</p>
+            </div>
+
+            <!-- Social Media Section -->
+            <div class="col-6 col-md-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #343a40;">Follow Us</h5>
+                <a href="#" class="text-secondary" style="text-decoration: none;">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a><br>
+                <a href="#" class="text-secondary" style="text-decoration: none;">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a><br>
+                <a href="#" class="text-secondary" style="text-decoration: none;">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+        </div>
+
+        <!-- Copyright Section -->
+        <hr class="mb-10" style="border-color: #dee2e6;">
+        <div class="row justify-content-center">
+            <div class="col-12 text-center">
+                <p class="mb-0">© 2024 Chewy. All rights reserved.</p>
+            </div>
+            <div class="col-12 text-center mt-2">
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-google"></i></a>
+                <a href="#" class="text-secondary mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  
+  
+  
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

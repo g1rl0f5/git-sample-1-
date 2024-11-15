@@ -1,0 +1,35 @@
+/* .container{
+    width: 60px;
+    height:500px ;
+} */
+
+/* .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  } */
+
+
+  .bg-img-1{
+    background-image: url(https://images.unsplash.com/photo-1601758063890-1167f394febb?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+  
+    .bg-img-2{
+      background-image: url(https://images.unsplash.com/photo-1601758064224-c3c5ec910095?q=80&w=1882&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+  
+  
+    .bg-img-3{
+      background-image: url(https://images.unsplash.com/photo-1601758066440-cbfc06a82914?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+  
+  
+    .bg-img-1, .bg-img-2, .bg-img-3 {
+      background-size: cover;   
+      background-position: center; 
+      background-repeat: no-repeat;
+      height: 65vh; 
+    }
+    
+    .carousel-inner .carousel-item {
+      height: 65vh; 
+    }
